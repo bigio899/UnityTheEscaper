@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -20,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private FixedJoystick fixedJoystickGameObject; //variables where is contained the joystick.
     private float xPositionTransform = 0.0f; //x axis pos
     private float zPositionTransform = 0.0f; //z axis pos
+
+    public bool isPlayerInMovement = false;
     // Start is called before the first frame update
     private void Start()
     {
@@ -40,7 +41,6 @@ public class PlayerMovement : MonoBehaviour
         //get the axis of the movement.
         xPositionTransform = fixedJoystickGameObject.Horizontal; //we take the input horizontal axis taken from the joystick.
         zPositionTransform = fixedJoystickGameObject.Vertical;   //we take the input vertical axis taken from the joystick.
-
         //direction that we want to do. this is a sum of vectors 
         Vector3 movementPosition = transform.right * xPositionTransform + transform.forward * zPositionTransform;
         //this line of code will do the movement of the player,having the 'movementposition' vector(that have the values of the direction that we want to do).

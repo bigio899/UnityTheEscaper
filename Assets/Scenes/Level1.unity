@@ -662,7 +662,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (2)
+      value: Money2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -975,7 +975,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: a2c4a5c643d900b46a72b7b9bbf43c90, type: 2}
     - target: {fileID: 919132149155446097, guid: 09584ba019b2038478c56a9176c50002, type: 3}
       propertyPath: m_Name
-      value: LAPTOP
+      value: Laptop
       objectReference: {fileID: 0}
     - target: {fileID: 4253280567622488715, guid: 09584ba019b2038478c56a9176c50002, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1555,7 +1555,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (13)
+      value: Money13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -1679,7 +1679,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (11)
+      value: Money11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -2366,7 +2366,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (14)
+      value: Money14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -3555,7 +3555,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 819c888f835ebd24fb1866f59a9827bc, type: 2}
     - target: {fileID: 919132149155446097, guid: bb00ee5e6d68a884cba2d49ce1c0d2c5, type: 3}
       propertyPath: m_Name
-      value: Gangster tommy gun
+      value: Gun
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb00ee5e6d68a884cba2d49ce1c0d2c5, type: 3}
@@ -3641,7 +3641,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (9)
+      value: Money9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -3848,6 +3848,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   fixedJoystickGameObject: {fileID: 824988416}
+  isPlayerInMovement: 0
 --- !u!1001 &1056896909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3917,7 +3918,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 876ac8c7881f76047ba082ed4e4d20aa, type: 2}
     - target: {fileID: 919132149155446097, guid: e6dc76b972ea1114897988d44cd916f8, type: 3}
       propertyPath: m_Name
-      value: AR01_StageB
+      value: Gun2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6dc76b972ea1114897988d44cd916f8, type: 3}
@@ -4079,7 +4080,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (10)
+      value: Money10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -4189,7 +4190,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (12)
+      value: Money12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -4275,7 +4276,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (17)
+      value: Money17
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -4442,7 +4443,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (8)
+      value: Money8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -4816,7 +4817,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (16)
+      value: Money16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -5376,7 +5377,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bf7c720b655186a46ac1d6fd47c20cad, type: 2}
     - target: {fileID: 919132149155446097, guid: 86fa697041379424e8b344a2bc851819, type: 3}
       propertyPath: m_Name
-      value: bunkeruffic
+      value: BunkerRoom
       objectReference: {fileID: 0}
     - target: {fileID: 2623438074134420092, guid: 86fa697041379424e8b344a2bc851819, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5688,7 +5689,7 @@ GameObject:
   - component: {fileID: 1385568254}
   - component: {fileID: 1385568253}
   m_Layer: 0
-  m_Name: Paperbox.1 (1)
+  m_Name: Paperbox1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5968,7 +5969,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (7)
+      value: Money7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -6116,7 +6117,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (5)
+      value: Money5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -6428,6 +6429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerBody: {fileID: 1188957500}
+  fixedJoystickGameObject: {fileID: 824988416}
 --- !u!1001 &1514866740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6505,7 +6507,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (3)
+      value: Money3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -7056,7 +7058,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (6)
+      value: Money6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -7250,7 +7252,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (15)
+      value: Money15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -7387,7 +7389,7 @@ GameObject:
   - component: {fileID: 1726168879}
   - component: {fileID: 1726168878}
   m_Layer: 0
-  m_Name: Bookshelf.2 (1)
+  m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8276,7 +8278,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled
+      value: Money
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -8436,7 +8438,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (1)
+      value: Money1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -8584,7 +8586,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 079243d570446f547a733fb078223fcc, type: 2}
     - target: {fileID: 919132149155446097, guid: 2a430344bb53c8a49ab69e369c7d7e0d, type: 3}
       propertyPath: m_Name
-      value: door2_low
+      value: BunkerDoor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a430344bb53c8a49ab69e369c7d7e0d, type: 3}
@@ -8697,7 +8699,7 @@ GameObject:
   - component: {fileID: 1895692214}
   - component: {fileID: 1895692213}
   m_Layer: 0
-  m_Name: Paperbox.1 (2)
+  m_Name: Paperbox2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8845,7 +8847,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0c03f93360739e640bed77316e86dc53, type: 2}
     - target: {fileID: 919132149155446097, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
       propertyPath: m_Name
-      value: untitled (4)
+      value: Money4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b02c05235bda24a9eacaf1cd036a65, type: 3}
@@ -9311,7 +9313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2528130883258988220}
   m_Layer: 0
-  m_Name: Tnunelfixx
+  m_Name: TunnelToBunker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
