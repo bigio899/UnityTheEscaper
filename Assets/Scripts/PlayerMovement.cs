@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI; //library where's the button. 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] private GameObject emptyuemptyAusiliarJumpGameObject;
+
     [SerializeField] private CharacterController playerController; //reference to our character controller(motor that drives our player).
     private static float speedOfTheMovement = 0.05f; //speed of the movement of the player.
     private static float gravityNumber = (-9.81f * 2.5f); //this number is negative.
@@ -20,12 +22,6 @@ public class PlayerMovement : MonoBehaviour
     private float xPositionTransform = 0.0f; //x axis pos
     private float zPositionTransform = 0.0f; //z axis pos
 
-    public bool isPlayerInMovement = false;
-    // Start is called before the first frame update
-    private void Start()
-    {
-
-    }
     // Update is called once per frame
     void Update()
     {
@@ -47,8 +43,9 @@ public class PlayerMovement : MonoBehaviour
         //this vector is molitiplied by speed.
         playerController.Move(movementPosition * speedOfTheMovement); //this function can be used only with a charactercontroller object.
 
-        if ((isPlayerGrounded == true) && (Input.GetButtonDown("Jump")))  //conditions
+        if ((isPlayerGrounded == true) && (Input.GetButtonDown("Jump")))  //condition that verify if the button (that use the jump force)is pressed and the player is on ground.
         {
+            Debug.Log("done");
             //velocity occurred for do the jump of the player
             velocity.y = Mathf.Sqrt(jumpHeight * (-2.0f * gravityNumber)); //square root (formule of a jump).
         }
@@ -56,4 +53,5 @@ public class PlayerMovement : MonoBehaviour
         //in this line of code there's the function that apply the gravity to the player gameobject.
         playerController.Move(velocity * Time.deltaTime); 
     }
+
 }

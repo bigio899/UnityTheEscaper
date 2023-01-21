@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager1 : MonoBehaviour
 {
@@ -32,9 +33,8 @@ public class GameManager1 : MonoBehaviour
     //function that return 3 seconds of waiting for the coroutine.
     public IEnumerator LoadingCoroutine()
     {
-        Debug.Log("Inizio Coroutine");
         yield return new WaitForSeconds(3);
         isCoroutineEnded = true;
-        Debug.Log("Fine Coroutine");
     }
+
 }

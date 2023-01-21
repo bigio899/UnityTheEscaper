@@ -32,7 +32,6 @@ public class LookAroundScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(fixedJoystickGameObject.Horizontal);
         //condition that verify if the player is in movement(the result will go on "isPlayerInMovement"variable)
         if ((fixedJoystickGameObject.Horizontal == 0) && (fixedJoystickGameObject.Vertical == 0))
         {
@@ -72,7 +71,7 @@ public class LookAroundScript : MonoBehaviour
         touchscreenInputY = axisTouchscreenInputY * mouseSensitivity * Time.deltaTime;
 
         xRotation = xRotation - touchscreenInputY;
-        xRotation = Mathf.Clamp(xRotation, -45.0f, +45.0f); //clamp the max and the minimum value that the varible can contain
+        xRotation = Mathf.Clamp(xRotation, -55.0f, +55.0f); //clamp the max and the minimum value that the varible can contain
         transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
        
 
